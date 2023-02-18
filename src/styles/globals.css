@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 body {
-  @apply bg-zinc-200;
+  @apply bg-secondary flex flex-col;
 }
 
 .dark body {
-  @apply bg-secondary;
+  @apply bg-zinc-800;
 }
