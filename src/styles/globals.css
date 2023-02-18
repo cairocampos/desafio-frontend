@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-zinc-200;
+}
+
+.dark body {
+  @apply bg-secondary;
+}
