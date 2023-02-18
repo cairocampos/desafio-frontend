@@ -9,7 +9,7 @@ export default function useTheme() {
   }
 
   const setInitialTheme = () => {
-    if(theme.value === 'dark') {
+    if(localStorage.getItem('@Rockstream:theme') === 'dark') {
       document.documentElement.classList.add('dark')
       return;
     }
