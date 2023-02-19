@@ -4,6 +4,9 @@
       <ChevronLeftIcon/>
     </div>
     <div ref="list" class="slider__list">
+      <button :class="['slider__item', {'active': !categoryIdSelected}]">
+        Todos
+      </button>
       <button
         v-for="(category, index) in categories"
         :key="index"
@@ -24,6 +27,8 @@ import { useYoutubeApi } from '@/core/api/youtube';
 import { VideoCategoriesItems } from '@/core/models/youtube/video-categories-items';
 import { ref, onMounted, computed, Ref, nextTick } from 'vue';
 import { ChevronLeftIcon, ChevronRightIcon } from 'vue-tabler-icons'
+
+const categoryIdSelected = ref('')
 
 const categories = ref<VideoCategoriesItems[]>([]);
 const youtubeApi = useYoutubeApi();
@@ -183,6 +188,9 @@ const slipTo = (direction: 'left' | 'right') => {
     cursor-pointer hover:bg-primary hover:text-zinc-200 transition-all
     whitespace-nowrap relative dark:bg-zinc-200 dark:hover:bg-zinc-400
     dark:border-zinc-500 dark:hover:text-dark;
+  &.active {
+    @apply bg-primary text-zinc-200;
+  }
 }
 
 .slip {
