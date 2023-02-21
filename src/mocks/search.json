@@ -1,0 +1,1712 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "xw0X9uVkgyr5gQcw5Na3vo2uGmM",
+  "nextPageToken": "CDIQAA",
+  "regionCode": "BR",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YMplI8Vkw41_gmG__OhxHLx62vU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lAYATrEpbPE"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-31T00:15:30Z",
+        "channelId": "UCJ3u2OkwClq8-dxDVDa2fBg",
+        "title": "Golden State Warriors PLAYOFF Prediction… (New Death Lineup)",
+        "description": "Will Steph Curry & The Golden State Warriors win the 2022 NBA championship? Here are my predictions... STEPH CURRY's ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lAYATrEpbPE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lAYATrEpbPE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lAYATrEpbPE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Hoop Reports",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-31T00:15:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "egcmZW77_m2lF1gThTbUrk-qQhc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dNJMI92NZJ0"
+      },
+      "snippet": {
+        "publishedAt": "2018-06-06T16:00:14Z",
+        "channelId": "UCgLQkRAZsFN6fhqxFyx8qhQ",
+        "title": "Impulse - Ep 2 &quot;State of Mind&quot;",
+        "description": "After a visit with a neurologist, Henry hopes her new meds will fix everything. Meanwhile, Bill Boone attempts to identify his son ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dNJMI92NZJ0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dNJMI92NZJ0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dNJMI92NZJ0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Impulse",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-06-06T16:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "R0PS4alGBHZcP87oZGLi3ZfPX18",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uVodqkH0tQQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-08T14:00:33Z",
+        "channelId": "UCa9s-O7pZkNylTVtxqHh8Fw",
+        "title": "Qual mágica você gostou mais?",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uVodqkH0tQQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uVodqkH0tQQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uVodqkH0tQQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Escolha Uma Carta ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-08T14:00:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HsymxMaDZo90gEXICUOVV_7Yanc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "T5cVJI2y0k8"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-16T15:00:27Z",
+        "channelId": "UC4rlAVgAK0SGk-yTfe48Qpw",
+        "title": "That&#39;s How You Know If Your Jewelry Is Real or Fake",
+        "description": "\"Is this diamond real or fake\"? This is the question asked by everyone who's got this precious stone or is dreaming to get one.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/T5cVJI2y0k8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/T5cVJI2y0k8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/T5cVJI2y0k8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "BRIGHT SIDE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-16T15:00:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DAcfrDHRlOO2wGmwXINegg8hqXw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9htbulSpPUI"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-14T15:49:18Z",
+        "channelId": "UCbGnmtMSaK28VdrE7SgqjZg",
+        "title": "Coloque 1 CEBOLA em suas PLANTAS (Veja o incrível resultado)",
+        "description": "cebola #adubocebola #loucosdasplantas Use cebolas em todas as suas plantas. Veja como fazer o melhor adubo orgânico para ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9htbulSpPUI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9htbulSpPUI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9htbulSpPUI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loucos das Plantas",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-14T15:49:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4X2vEqZSQehu5kUsnXQG2buhaOI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SbnD_ySkHpc"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-19T14:32:07Z",
+        "channelId": "UCzB2vC0kH-PPbrGmqeII9hQ",
+        "title": "Not again 😑😑…Save this and create your own 😎😎 #shorts #coding #programming #fire #theboys",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SbnD_ySkHpc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SbnD_ySkHpc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SbnD_ySkHpc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Developer Rahul",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-19T14:32:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aHMGgU7j2EjNGS5KItLN1bTlgFM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FnmvND9V2sE"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-25T15:05:00Z",
+        "channelId": "UCbAiIkPobUFy71zlmwVw3jw",
+        "title": "Vladimir Putin pode ser o Anticristo. Será?",
+        "description": "Há muito tempo a humanidade vive às margens de previsões bíblicas que sugerem a vinda do Anticristo precedendo o ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FnmvND9V2sE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FnmvND9V2sE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FnmvND9V2sE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fatos",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-25T15:05:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "c3axBNz3r4Q3qDxPPDj0aJeII2I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VK45gqC1Aeg"
+      },
+      "snippet": {
+        "publishedAt": "2021-06-24T14:00:10Z",
+        "channelId": "UCZdSluFQ34aT0dzBdP8hEtA",
+        "title": "OS SIGNOS SAINDO DO ARMÁRIO 🌈",
+        "description": "Tem gente que leva anos pra sair do armário, e tem quem não aceita nem que esse armário exista! Pra finalizar junho, o mês do ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VK45gqC1Aeg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VK45gqC1Aeg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VK45gqC1Aeg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Deboche Astral",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-06-24T14:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xgzFnBgdI0rSmPC2T96Q5-ygSBM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "B8p1lx-LdQU"
+      },
+      "snippet": {
+        "publishedAt": "2021-03-23T22:28:22Z",
+        "channelId": "UC6kIhs9c3ViWH4gaGRpMMXQ",
+        "title": "RESISTA! a melhor MOTIVAÇÃO MILITAR de 2021! 🔰",
+        "description": "Fala, Criatura! Preparamos esse vídeo pra te dizer: VOCÊ NÃO PODE DESISTIR! VOCÊ VAI RESISTIR! VOCÊ VAI CHEGAR LÁ.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/B8p1lx-LdQU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/B8p1lx-LdQU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/B8p1lx-LdQU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Leonardo Chucrute",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-03-23T22:28:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Z1Y1XWd2ChuR3OpPvdBsfc_WWck",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BQdtUXOLRfI"
+      },
+      "snippet": {
+        "publishedAt": "2018-11-17T16:00:01Z",
+        "channelId": "UCPFJvWjdSNHPUh0zPnZoiCg",
+        "title": "MÁGICO | Episódio 34 Completo | Português | Magician",
+        "description": "Mágico - desenho animado para crianças | At the dawn of the third millennium, a series of scientific discoveries in technology ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BQdtUXOLRfI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BQdtUXOLRfI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BQdtUXOLRfI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KIDFLIX [PT]",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-11-17T16:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2GHjPBrNtCOXxxAx_V3Hdm0MZE0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hEzQGKX2pYo"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-12T22:45:00Z",
+        "channelId": "UCNAek4srjvZvjptytiH99bA",
+        "title": "Irma Grese: The Hyena of Auschwitz #shorts #history #ww2",
+        "description": "I'm horrified and disgusted by the acts of cruelty committed by Nazi guard Irma Grese during the Holocaust. She was known to ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hEzQGKX2pYo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hEzQGKX2pYo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hEzQGKX2pYo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "History Bypass",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-12T22:45:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oFZJW_7RaDNv643BViNP2mtqZRo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7kQp-rKihas"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-19T21:30:10Z",
+        "channelId": "UCbAiIkPobUFy71zlmwVw3jw",
+        "title": "Além da Bíblia - Concílios: A Bíblia pode ter sido adulterada? - Episódio 4 /6",
+        "description": "Entre os vários acontecimentos do passado cristão, alguns se destacam por basicamente terem moldado a forma como o ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7kQp-rKihas/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7kQp-rKihas/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7kQp-rKihas/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fatos",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-19T21:30:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Yd-ToUm4y2bYTaJ4jCm7NJ2FYfo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SflOK3qeuD4"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-06T15:00:13Z",
+        "channelId": "UCbAiIkPobUFy71zlmwVw3jw",
+        "title": "As histórias proibidas mais bizarras de todos os tempos",
+        "description": "Se existe uma história, com certeza há outras versões dessa mesma narrativa. Ao longo dos anos, muitas histórias nos foram ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SflOK3qeuD4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SflOK3qeuD4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SflOK3qeuD4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fatos",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-06T15:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "25LOLiJeSxpG-srs-ryqVB3TomQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "sKvl0gIhno0"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-23T20:35:51Z",
+        "channelId": "UCYmT0j7qhRUPrc-SXICvV7Q",
+        "title": "Wrap de cupim recheado feito na churrasqueira",
+        "description": "Wrap de massa? De cupim é bem melhor! . Quer ter mais conteúdos como esse? . @doutorchurras e ative as notificações, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sKvl0gIhno0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sKvl0gIhno0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sKvl0gIhno0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Doutor Churras",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-23T20:35:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GD66jBq5_X9xwT0zXxYN-Z3VBOA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FQqA8Wd-xvE"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-07T21:33:53Z",
+        "channelId": "UCFk6v5VFTO8vUUK8og2eotg",
+        "title": "SURTO na aula…🤯",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FQqA8Wd-xvE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FQqA8Wd-xvE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FQqA8Wd-xvE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Nina Baiocchi",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-07T21:33:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MuvQLMYDAGeVkudeBvP_Zm6Zu-o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "B9tOoCsUeNk"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-08T19:00:03Z",
+        "channelId": "UCbAiIkPobUFy71zlmwVw3jw",
+        "title": "O que é a sensação de “facada no peito” que muitos sentem?",
+        "description": "Sentir dores pelo corpo nunca é visto como algo bom, e quando a dor começa no peito a preocupação tende a ser maior, devido ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/B9tOoCsUeNk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/B9tOoCsUeNk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/B9tOoCsUeNk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fatos",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-08T19:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WugO4G9CUtynY7dwsuomWQBhfhw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3tZ2rM65G8A"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-20T19:00:01Z",
+        "channelId": "UCbAiIkPobUFy71zlmwVw3jw",
+        "title": "Criatura misteriosa avistada em Chernobyl",
+        "description": "O maior acidente nuclear da história da humanidade ocorreu na Usina de Chernobyl, na Ucrânia, em 1986. Porém, algo foi ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3tZ2rM65G8A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3tZ2rM65G8A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3tZ2rM65G8A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fatos",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-20T19:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aeJvVPWY5vyx8pYW-o51UvStQjk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_xFQU3noDMc"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-27T09:20:11Z",
+        "channelId": "UCgIC7x2bgi0ZIHraBGj2hpQ",
+        "title": "INILAH ORANG” YANG BERJASA DI MASJID NABAWI DAN MASJIDIL HARAM MAKKAH",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_xFQU3noDMc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_xFQU3noDMc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_xFQU3noDMc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Hasib Azizi",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-27T09:20:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rFykcaKP6OmDXtQ1w8uKI3n5lyY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "S1RbO-73wSs"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-19T00:27:19Z",
+        "channelId": "UCvdwhh_fDyWccR42-rReZLw",
+        "title": "Bolsonaro retira AGU de 20 processos contra ele | CNN PRIME TIME",
+        "description": "O ex-presidente Jair Bolsonaro (PL) retirou a Advocacia-Geral da União (AGU) de 20 processos em que ele responde na Justiça ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/S1RbO-73wSs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/S1RbO-73wSs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/S1RbO-73wSs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNN Brasil",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-19T00:27:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CcTQnLMtsZeC6dTAuBE4CqgsB0o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fsh0IxISc98"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-28T15:54:01Z",
+        "channelId": "UClZUgepdS-E0jGrXDcqcYSg",
+        "title": "Construct Marble Runs | Launch More Marbles with Extensions! GraviTrax Track System Game",
+        "description": "It's the ultimate track system game that puts your construction skills to the test - how many marbles will you race? Get Mad ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fsh0IxISc98/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fsh0IxISc98/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fsh0IxISc98/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ravensburger UK",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-28T15:54:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RxdGmS-90nEUtAH853kf-6ioXIY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AEf50FPh6wM"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-08T15:03:54Z",
+        "channelId": "UCbAiIkPobUFy71zlmwVw3jw",
+        "title": "A história da Torre de Babel: mito ou verdade?",
+        "description": "O que você sabe sobre a história da Torre de Babel? Neste vídeo, iremos fazer uma breve análise sobre essa passagem de ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AEf50FPh6wM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AEf50FPh6wM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AEf50FPh6wM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fatos",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-08T15:03:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6Q70v5hdAUoIFP67bmEYSIiOkPY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "V3Ohnye2qYk"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-12T15:52:40Z",
+        "channelId": "UCD263pWK2qseUhsmOsmf2ZA",
+        "title": "New Honda INSPIRE 2022 - Awesome Midsize Sedan",
+        "description": "Honda Inspire 2022. Honda has finished preparing the new Inspire sedan for the Chinese market. At the same time the exact ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/V3Ohnye2qYk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/V3Ohnye2qYk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/V3Ohnye2qYk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Tafra Channel",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-12T15:52:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0RMhddPjiLjHHUwlF22_1I90TfA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DTIAvMyjxec"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-18T22:58:14Z",
+        "channelId": "UC6ZFN9Tx6xh-skXCuRHCDpQ",
+        "title": "PBS News Weekend full episode, Feb. 18, 2023",
+        "description": "Saturday on PBS News Weekend, the latest on the war in Ukraine as the country nears the first anniversary of Russia's invasion.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DTIAvMyjxec/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DTIAvMyjxec/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DTIAvMyjxec/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "PBS NewsHour",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-18T22:58:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NbzWEn7SOKJl6-l23s4nv_fvqOg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2efS8AhTtvM"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-26T18:46:00Z",
+        "channelId": "UCX7u-JCsVzbeb91NkV-iADQ",
+        "title": "“Fechadura Digital”, um filme da campanha “Vai Tranquilo, vai de Papaiz”",
+        "description": "Assista ao terceiro vídeo da campanha “Vai Tranquilo, vai de Papaiz” e responda nos comentários se você já ficou para fora de ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2efS8AhTtvM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2efS8AhTtvM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2efS8AhTtvM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Papaiz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-26T18:46:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xg5sDnV8Wq6ml1NhZlO5-BsZ1nY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "I1fBc283LBc"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-18T22:42:43Z",
+        "channelId": "UCP391YRAjSOdM_bwievgaZA",
+        "title": "Tarcísio estreia no Sambódromo ao abrir desfiles em SP",
+        "description": "Tarcísio de Freitas, ao lado do prefeito Ricardo Nunes, participou de evento realizado na noite desta sexta (17) na abertura do ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/I1fBc283LBc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/I1fBc283LBc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/I1fBc283LBc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Jovem Pan News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-18T22:42:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5BBwcl_SoVB4uH1mbC-vVJdbCvQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oZPZ-o3Il-Q"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-18T22:18:35Z",
+        "channelId": "UCw5-xj3AKqEizC7MvHaIPqA",
+        "title": "VINI JR. VÊ GOLAÇO SER ANULADO, MAS DÁ ASSISTÊNCIA, E REAL MADRID VENCE O OSASUNA EM LALIGA",
+        "description": "Todo o esporte AO VIVO da ESPN disponível também no Star+! Assine já! http://dis.la/StarPlus_YT_BR E o melhor do jornalismo ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oZPZ-o3Il-Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oZPZ-o3Il-Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oZPZ-o3Il-Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ESPN Brasil",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-18T22:18:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CpqcGPZkJELihRlV2TefJZNC_jI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EJ6emudoc2M"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-30T22:03:42Z",
+        "channelId": "UCbAiIkPobUFy71zlmwVw3jw",
+        "title": "Como Elon Musk se tornou uma das pessoas mais ricas do mundo?",
+        "description": "Elon Musk é um dos donos da SpaceX e da Tesla. Mas você sabe como foi que ele se tornou um dos homens mais ricos do ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EJ6emudoc2M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EJ6emudoc2M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EJ6emudoc2M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fatos",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-30T22:03:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "io_AMeLnReh2ZGXMFiFxNi0BsIc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4xg_Gd4337k"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-12T17:00:04Z",
+        "channelId": "UC4rlAVgAK0SGk-yTfe48Qpw",
+        "title": "Reason Your Bottle Bottom Isn&#39;t Flat + 13 Other Crazy Why&#39;s",
+        "description": "Do you like drinking soda? You've probably noticed that the bottom of a plastic soda bottle isn't flat. It usually has 5 bumps ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4xg_Gd4337k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4xg_Gd4337k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4xg_Gd4337k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "BRIGHT SIDE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-12T17:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GyFw266UthhqaEkLDiqvQaQYcMI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bOS3UZdUxs8"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-20T04:06:27Z",
+        "channelId": "UCW-roDSSQP7MbSS_8OBqnzg",
+        "title": "KUSUKA Keripik Singkong - Greatest Time",
+        "description": "Kumpul bersama makin seru dengan KUSUKA! Kini dengan kemasan hijau BARU! Beli KUSUKA di sini!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bOS3UZdUxs8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bOS3UZdUxs8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bOS3UZdUxs8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Kusuka Chips",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-20T04:06:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HT5GCMxkiwKEmTE1CACJdWUengw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "11tg7Gx06Ek"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-05T15:03:00Z",
+        "channelId": "UCbAiIkPobUFy71zlmwVw3jw",
+        "title": "Operação Traíra - O dia em que o Brasil derrotou as Farc",
+        "description": "Você conhece a Operação Traíra? Na década de 1990, as Forças Armadas Revolucionárias da Colômbia, mais conhecidas ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/11tg7Gx06Ek/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/11tg7Gx06Ek/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/11tg7Gx06Ek/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fatos",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-05T15:03:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LGicyRRil-TjbPh1GiwjIGUkwx8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lGi-twuutXs"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-19T01:39:17Z",
+        "channelId": "UCmpHPgeCBgvk_fDXZQKsnAA",
+        "title": "Assista à íntegra do Jornal da Record | 18/02/2023",
+        "description": "Veja a edição completa do Jornal da Record deste sábado (18) com os seguintes destaques: Furto e roubo de celulares ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lGi-twuutXs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lGi-twuutXs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lGi-twuutXs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Jornal da Record",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-19T01:39:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eqlRha2xBmMWG-WR8naolj_JmYU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "q5I5900hox4"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-24T15:03:00Z",
+        "channelId": "UCbAiIkPobUFy71zlmwVw3jw",
+        "title": "Verdades por trás da história da bíblia - anjos caídos e anunnakis",
+        "description": "O texto bíblico provoca muitas curiosidades, mesmo de pessoas que não são adeptas ao cristianismo. A história da produção das ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/q5I5900hox4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/q5I5900hox4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/q5I5900hox4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fatos",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-24T15:03:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fUYBceNYN83DLK8LfitHU8Zd6wE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1rpWjuPTnbs"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-19T04:46:50Z",
+        "channelId": "UCrFDdD-EE05N7gjwZho2wqw",
+        "title": "ฉุนเด็กเล่นเสียงดังหนังสติ๊กไล่ยิง - ลวนลามเด็กหญิง | 19-02-66 | ข่าวเที่ยงไทยรัฐ เสาร์-อาทิตย์",
+        "description": "แก่ตัณหากลับ ฉุนกลุ่มเด็กเล่นส่งเสียงดังรบกวนการนอน ใช้หนังสติ๊กไล่ยิงเด็กชาย ก่อนลวนลามจับหน้าอกเด็กผู้หญิง อ้างทำไปเพราะง่วงนอน .",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1rpWjuPTnbs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1rpWjuPTnbs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1rpWjuPTnbs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Thairath Online",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-19T04:46:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-qVjKMyJCQTSGjgl9vrf7hTd-fA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LXk_OWFF0e4"
+      },
+      "snippet": {
+        "publishedAt": "2018-10-13T12:00:01Z",
+        "channelId": "UCPFJvWjdSNHPUh0zPnZoiCg",
+        "title": "O LIVRO DA SELVA | Episódio 11 | Português | The Jungle Book",
+        "description": "O Livro da Selva em portugues | A world-famous novel by Rudyard Kipling, “THE JUNGLE BOOK” is the story of a boy lost in the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LXk_OWFF0e4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LXk_OWFF0e4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LXk_OWFF0e4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KIDFLIX [PT]",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-10-13T12:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "l1BhUA-KQYkvX1cu5bHRniseR-c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nFGW9tbyXh8"
+      },
+      "snippet": {
+        "publishedAt": "2018-05-13T13:00:05Z",
+        "channelId": "UCM1LVD5a5509fzL-4khritA",
+        "title": "🎥 THE CLEANSE (2018) | Full Movie Trailer in Full HD | 1080p",
+        "description": "A heartbroken man attends a spiritual retreat to cleanse himself and fix his broken life. There he meets a fellow lost soul, and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nFGW9tbyXh8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nFGW9tbyXh8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nFGW9tbyXh8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "TRAILER CITY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-05-13T13:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CAuF8V0MYrl0rgkx41lI8C0WxDw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Jfb5VIt6Zd8"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-18T21:50:10Z",
+        "channelId": "UCKcx1uK38H4AOkmfv4ywlrg",
+        "title": "Messias magic for the win | Monza 0-1 AC Milan | Highlights Serie A",
+        "description": "Join the AC Milan Members Area and choose between 2 levels to get access to exclusive perks: https://bit.ly/JoinACMilan ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Jfb5VIt6Zd8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Jfb5VIt6Zd8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Jfb5VIt6Zd8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "AC Milan",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-18T21:50:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hHUiLyG4rFBJsZ3Q-qmMJSyFCeU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UsFJDv6kAVc"
+      },
+      "snippet": {
+        "publishedAt": "2020-07-04T16:30:48Z",
+        "channelId": "UCbAiIkPobUFy71zlmwVw3jw",
+        "title": "Por que os aviões não voam sobre o Oceano Pacífico?",
+        "description": "Você pode não ter percebido, até porque, provavelmente era apenas um mero passageiro, mas os aviões evitam ao máximo ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UsFJDv6kAVc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UsFJDv6kAVc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UsFJDv6kAVc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fatos",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-07-04T16:30:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "s39DIeqaJ0q361yDufe89TQBPc0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QoeniBZi918"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-29T14:20:35Z",
+        "channelId": "UCsRM0YB_dabtEPGPTKo-gcw",
+        "title": "I Drink Wine: Afterparty",
+        "description": "Afterparty for \"I Drink Wine\" by Adele. Watch the video here: https://adele.lnk.to/IDW Shop the \"Adele\" collection here: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QoeniBZi918/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QoeniBZi918/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QoeniBZi918/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Adele",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-29T14:20:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ajehpuXsvdJXHGxuCfdkhpwSRew",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1-0iQsUTizg"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-19T09:00:01Z",
+        "channelId": "UC14UlmYlSNiQCBe9Eookf_A",
+        "title": "An emotional goal for Marcos Alonso 🤍 #shorts",
+        "description": "SUBSCRIBE NOW: ▷ https://www.youtube.com/user/fcbarcelona ⚽ BARÇATV+: http://barca.link/wT1w30qMyQO\u200b Official ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1-0iQsUTizg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1-0iQsUTizg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1-0iQsUTizg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "FC Barcelona",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-19T09:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "s04ISd2j5yoxBmz_TtlLSprAxp8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9ZwqRa1hdHs"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-17T15:03:00Z",
+        "channelId": "UCbAiIkPobUFy71zlmwVw3jw",
+        "title": "História, mitos e verdades sobre a religião do Candomblé",
+        "description": "Você conhece um terreiro de Candomblé? Conhecendo ou não, você deve saber que esses lugares são vítimas de muitas ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9ZwqRa1hdHs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9ZwqRa1hdHs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9ZwqRa1hdHs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fatos",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-17T15:03:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "C-gcqowxk5s_z4z7In_eXKf3_0w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "URiRNH0WdTw"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-18T11:46:14Z",
+        "channelId": "UC-LPIU24bQXVljUXivKEeRQ",
+        "title": "Saath Nibhaana Saathiya | Kya Gopi kar paayegi Aham ko impress?",
+        "description": "Click here to Subscribe *Star Plus* : https://www.youtube.com/channel/UC-LPIU24bQXVljUXivKEeRQ *Free Subscription* ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/URiRNH0WdTw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/URiRNH0WdTw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/URiRNH0WdTw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "StarPlus",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-18T11:46:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_vrSiugWxzBZ1RyTuF_hXGzpaJs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OLSS-CYAiQY"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-18T17:16:06Z",
+        "channelId": "UC_HtEPrXQYKJ9Pihwg0u1Rw",
+        "title": "อย่าเล่นกับอนล I Bed Friend Series EP.1 [4/4]",
+        "description": "อย่าเล่นกับอนล I Bed Friend Series คิง รับบทโดย เน็ต สิรภพ มานิธิคุณ King by Net Siraphop Manithikhun IG : net_siraphop | Twitter ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OLSS-CYAiQY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OLSS-CYAiQY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OLSS-CYAiQY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mandee Channel",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-18T17:16:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "V-7zNeapl6qDwr70pWLod782wkk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IykEcO79fTc"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-18T14:00:14Z",
+        "channelId": "UCEWHPFNilsT0IfQfutVzsag",
+        "title": "CAMISINHA COM SABORES",
+        "description": "Em breve mamada sabor Leite Ninho. #portadosfundos ELENCO Noemia Oliveira Gregório Duvivier João Pimenta João Vicente ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IykEcO79fTc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IykEcO79fTc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IykEcO79fTc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Porta dos Fundos",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-18T14:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oOjh7oD2qhuSPsZOKhI2wyU9AG0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "C7_aYmVwO5M"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-19T05:15:00Z",
+        "channelId": "UCoQBJMzcwmXrRSHBFAlTsIw",
+        "title": "逮捕の男 車の傷「当て逃げされた」　横浜6人重軽傷ひき逃げ",
+        "description": "神奈川・横浜市で6人が重軽傷を負ったひき逃げ事件で、逮捕された78歳の男が、自分の車の傷について「当て逃げされた」と ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/C7_aYmVwO5M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/C7_aYmVwO5M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/C7_aYmVwO5M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "FNNプライムオンライン",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-19T05:15:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nXU9rwTuLKdsLsnNYxzsQSkxho0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ea26icqMGQM"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-19T05:30:09Z",
+        "channelId": "UCvrhwpnp2DHYQ1CbXby9ypQ",
+        "title": "இந்த performance கண்டிப்பா வேற level ல இருக்க போகுது  👏😄 - Episode Preview",
+        "description": "கலக்கப்போவது யாரு Champions Season 4 - இன்று மதியம் 1.30 மணிக்கு நம்ம விஜய் ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ea26icqMGQM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ea26icqMGQM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ea26icqMGQM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Vijay Television",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-19T05:30:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WyXA6xhVME83akVasayrFZah-Vk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xhsbtFWxVsA"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-18T15:15:03Z",
+        "channelId": "UCpFuaxD-0PKLolFR3gWhrMw",
+        "title": "I was guaranteed that THIS is better than MSG, so we tried on steaks!",
+        "description": "Today we are testing the most requested MSG of all time. Everyone loves this seasoning and if you are from the south you know ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xhsbtFWxVsA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xhsbtFWxVsA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xhsbtFWxVsA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sous Vide Everything",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-18T15:15:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RXnAbBslqfv8qZI8tnvlF3RgJZs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZwHHxys1Ph4"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-18T23:37:44Z",
+        "channelId": "UCoa-D_VfMkFrCYodrOC9-mA",
+        "title": "JORNAL DA BAND 18/02/2023",
+        "description": "INSCREVA-SE NO CANAL E NÃO PERCA NENHUMA NOTÍCIA DO BRASIL E DO MUNDO. Siga as nossas redes sociais: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZwHHxys1Ph4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZwHHxys1Ph4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZwHHxys1Ph4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Band Jornalismo",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-18T23:37:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1yngzMeelbkqMGZoh1awI4OPv24",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TNaewALhuWQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-19T07:50:00Z",
+        "channelId": "UC-LPIU24bQXVljUXivKEeRQ",
+        "title": "Ishqbaaz | Kamini karna chahti hai Oberois ko humiliate!",
+        "description": "Click here to Subscribe *Star Plus* : https://www.youtube.com/channel/UC-LPIU24bQXVljUXivKEeRQ *Free Subscription* ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TNaewALhuWQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TNaewALhuWQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TNaewALhuWQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "StarPlus",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-19T07:50:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3frw-BhWftoH02jUk0FnxKhaF2c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ta_s2Jwmml0"
+      },
+      "snippet": {
+        "publishedAt": "2018-04-05T13:00:03Z",
+        "channelId": "UCM1LVD5a5509fzL-4khritA",
+        "title": "🎥 GAME OVER, MAN! (2018) | Full Movie Trailer in Full HD | 1080p",
+        "description": "Three friends are on the verge of getting their video game financed when their benefactor is taken hostage by terrorists.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ta_s2Jwmml0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ta_s2Jwmml0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ta_s2Jwmml0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "TRAILER CITY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-04-05T13:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Z9f3Yn7AAPaVrFY5C1SsYbM2Jgo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cPhbuaHJTSc"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-19T01:14:08Z",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+        "title": "[자막뉴스] &quot;뭐.. 이 정도는 쉽게 끄죠&quot; 퇴근길에 잠깐 들러서 &#39;쏴아~&#39; (MBC뉴스)",
+        "description": "전주 #화재 #퇴근길.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cPhbuaHJTSc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cPhbuaHJTSc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cPhbuaHJTSc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCNEWS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-19T01:14:08Z"
+      }
+    }
+  ]
+}

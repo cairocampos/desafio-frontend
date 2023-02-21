@@ -1,6 +1,6 @@
 import { Common } from "./common";
 import { PageInfo } from "./page-info";
-import { SearchItems } from "./search-items";
+import { SearchItem } from "./search-items";
 import { VideoCategoriesItems } from "./video-categories-items";
 
 export namespace Youtube {
@@ -9,6 +9,6 @@ export namespace Youtube {
   }
 
   export interface Search extends Common, PageInfo {
-    items: SearchItems[]
+    items: SearchItem[]
   }
 }

@@ -1,13 +1,20 @@
 <template>
   <div>
-    <CategoriesScrollList />
-    <section class="cards">
-      <PlayCard
+    <CategoriesScrollList
+      @selected="onSelectedCategory"
+    />
+    <div v-if="loading" class="flex items-center justify-center w-full">
+      <Loading />
+    </div>
+    <section v-else class="cards">
+      <Thumbnail
         v-for="(video, index) in videos"
         :key="index"
         :title="video.snippet.title"
         :thumbnailURL="video.snippet.thumbnails.medium.url"
         :published-at="video.snippet.publishedAt"
+        @click="onVideoClick(video)"
+        class="card__item"
       />
     </section>
   </div>
@@ -15,18 +22,53 @@
 
 <script setup lang="ts">
 import { useYoutubeApi } from '@/core/api/youtube';
-import { SearchItems } from '@/core/models/youtube/search-items';
-import { onMounted, ref } from 'vue';
+import { SearchItem } from '@/core/models/youtube/search-items';
+import { onMounted, ref, computed, watch } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
 import CategoriesScrollList from './components/CategoriesScrollList.vue';
-import PlayCard from './components/PlayCard.vue';
+import Thumbnail from '@/components/Thumbnail/Thumbnail.vue';
+import Loading from '@/components/Loading/Loading.vue'
+import { useVideoStore } from '@/stores/player';
+
 const youtubeApi = useYoutubeApi()
 
-const videos = ref<SearchItems[]>([])
+const videos = ref<SearchItem[]>([])
+const videoCategoryId = ref('')
 
-const searchVideos = async () => {
-  const {data} = await youtubeApi.search();
-  videos.value = data.items;
+const onSelectedCategory = (categoryId: string) => {
+  videoCategoryId.value = categoryId;
+  searchVideos();
 }
+
+const loading = ref(false)
+const searchVideos = async () => {
+  try {
+    loading.value = true;
+      const {data} = await youtubeApi.search({
+      q: route.query?.search?.toString() || '',
+      videoCategoryId: videoCategoryId?.value
+    });
+    videos.value = data.items;
+  } finally {
+    loading.value = false;
+  }
+}
+
+const router = useRouter()
+const videoStore = useVideoStore()
+const onVideoClick = (video: SearchItem) => {
+  videoStore.setVideo(video);
+  router.push({name: 'Watch', query: {v: video.id.videoId}})
+}
+
+const route = useRoute()
+const routeQuery = computed(() => {
+  return route.query;
+})
+
+watch(routeQuery, () => {
+  searchVideos();
+});
 
 onMounted(async () => {
   searchVideos();

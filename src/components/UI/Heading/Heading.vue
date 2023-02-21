@@ -30,7 +30,7 @@ const isComponent = computed(() => {
 
 <style scoped lang="scss">
 .heading {
-  @apply text-zinc-600;
+  @apply text-zinc-600 dark:text-zinc-200;
   &__lg {
     @apply text-2xl leading-8 md:text-5xl md:leading-[4rem] font-bold;
   }
@@ -41,7 +41,7 @@ const isComponent = computed(() => {
     @apply text-sm leading-5 md:text-[20px] md:leading-7 font-semibold;
   }
   &__xs {
-    @apply text-neutral-100 text-xs leading-5 md:text-[14px] md:leading-6 uppercase;
+    @apply text-xs leading-5 md:text-[14px] md:leading-6 uppercase;
   }
 }
 </style>

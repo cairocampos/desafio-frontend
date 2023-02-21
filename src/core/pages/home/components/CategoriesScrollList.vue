@@ -10,7 +10,8 @@
       <button
         v-for="(category, index) in categories"
         :key="index"
-        class="slider__item">
+        @click="onCategorySelected(category)"
+        :class="['slider__item category', {active: categoryIdSelected === category.id}]">
         {{  category.snippet.title  }}
       </button>
     </div>
@@ -25,10 +26,17 @@ import Hammer from "hammerjs";
 import gsap, { Elastic } from "gsap";
 import { useYoutubeApi } from '@/core/api/youtube';
 import { VideoCategoriesItems } from '@/core/models/youtube/video-categories-items';
-import { ref, onMounted, computed, Ref, nextTick } from 'vue';
+import { ref, onMounted, computed, Ref } from 'vue';
 import { ChevronLeftIcon, ChevronRightIcon } from 'vue-tabler-icons'
 
+const emit = defineEmits(['selected']);
+
 const categoryIdSelected = ref('')
+
+const onCategorySelected = (category: VideoCategoriesItems) => {
+  emit('selected', category);
+  categoryIdSelected.value = category.id
+}
 
 const categories = ref<VideoCategoriesItems[]>([]);
 const youtubeApi = useYoutubeApi();
@@ -41,6 +49,7 @@ onMounted(() => {
   getVideoCategories();
 })
 
+const pointerEventType = ref('');
 const list = ref<HTMLElement>() as Ref<HTMLElement>;
 const currentOffset = ref(0);
 const itemWidth = computed(() => {
@@ -53,6 +62,7 @@ const overflowRatio = computed(() => {
   return list.value.scrollWidth / list.value.offsetWidth;
 });
 function onPan(e: any) {
+  pointerEventType.value = 'none';
   const dragOffset =
     (((100 / itemWidth.value) * e.deltaX) / count.value) * overflowRatio.value;
   const transform = currentOffset.value + dragOffset;
@@ -85,6 +95,7 @@ function onPan(e: any) {
         ease: Elastic.easeOut.config(1, 0.8),
         onComplete: () => {
           currentOffset.value = finalOffset;
+          pointerEventType.value = ''
         },
       }
     );
@@ -186,16 +197,18 @@ const slipTo = (direction: 'left' | 'right') => {
 .slider__item {
   @apply border border-primary rounded-full text-dark p-2 px-4 text-xs
     cursor-pointer hover:bg-primary hover:text-zinc-200 transition-all
-    whitespace-nowrap relative dark:bg-zinc-200 dark:hover:bg-zinc-400
-    dark:border-zinc-500 dark:hover:text-dark;
+    whitespace-nowrap relative dark:bg-zinc-700 dark:border-transparent
+     dark:hover:bg-zinc-600 dark:text-zinc-200;
+
+  pointer-events: v-bind(pointerEventType);
   &.active {
-    @apply bg-primary text-zinc-200;
+    @apply bg-primary text-zinc-200 dark:bg-zinc-200 dark:text-dark;
   }
 }
 
 .slip {
   @apply absolute h-full bg-secondary flex items-center justify-center
-  w-[50px] z-[5] cursor-pointer;
+  w-[50px] z-[5] cursor-pointer dark:bg-zinc-900 dark:text-zinc-400;
   &::after, &::before {
     content: "";
     @apply pointer-events-none h-full w-[50px] top-0 absolute z-10;
@@ -213,6 +226,17 @@ const slipTo = (direction: 'left' | 'right') => {
       background: linear-gradient(to left, #FBFBFB 20%,rgba(33,33,33,0) 80%);
       @apply -left-[50px];
 
+    }
+  }
+}
+
+.dark {
+  .slip {
+    &__left::after {
+      background: linear-gradient(to right, #18181B 20%,rgba(33,33,33,0) 80%);
+    }
+    &__right::before {
+      background: linear-gradient(to left, #18181B 20%,rgba(33,33,33,0) 80%);
     }
   }
 }

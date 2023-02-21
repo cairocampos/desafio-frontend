@@ -1,5 +1,5 @@
 <template>
-  <Header />
+  <AppHeader />
   <main>
     <router-view v-slot="{ Component }">
       <transition name="fade">
@@ -10,8 +10,8 @@
 </template>
 
 <script setup lang="ts">
-import Header from '@/components/Header/Header.vue';
-import useTheme from './core/composables/useTheme';
+import AppHeader from '@/components/Header/Header.vue';
+import {useTheme} from './stores/useTheme';
 
 const { setInitialTheme } = useTheme()
 setInitialTheme()

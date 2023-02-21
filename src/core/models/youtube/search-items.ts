@@ -16,7 +16,7 @@ export interface VideoInfo {
   publishTime: string
 }
 
-export interface SearchItems extends Common {
+export interface SearchItem extends Common {
   id: {
     kind: string;
     videoId: string;

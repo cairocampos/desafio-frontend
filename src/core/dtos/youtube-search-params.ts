@@ -1,6 +1,8 @@
 export interface YoutubeSearchParams {
-  regionCode: string;
-  maxResults: number;
-  q: string;
-  pageToken: string;
+  part?: string;
+  regionCode?: string;
+  maxResults?: number;
+  q?: string | null;
+  pageToken?: string;
+  videoCategoryId?: string,
 }

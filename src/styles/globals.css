@@ -7,5 +7,18 @@ body {
 }
 
 .dark body {
-  @apply bg-zinc-800;
+  @apply bg-zinc-900;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-dark rounded-full;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

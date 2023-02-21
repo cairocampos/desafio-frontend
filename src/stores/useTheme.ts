@@ -1,8 +1,9 @@
+import { defineStore } from "pinia"
 import { ref, watch } from "vue"
 
 type Themes = 'dark' | 'light'
 
-export default function useTheme() {
+export const useTheme = defineStore('theme', () => {
   const theme = ref<Themes>('light')
   const toggleTheme = () => {
     theme.value = theme.value === 'dark' ? 'light' : 'dark';
@@ -39,4 +40,4 @@ export default function useTheme() {
     setInitialTheme,
     theme
   }
-}
+})

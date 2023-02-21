@@ -6,31 +6,44 @@
   "scripts": {
     "dev": "vite --port 8080",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:unit": "vitest"
   },
   "dependencies": {
     "@vime/core": "^5.4.0",
     "@vime/vue-next": "^5.4.0",
     "axios": "^1.3.3",
+    "filepond": "^4.30.4",
     "gsap": "^3.11.4",
     "hammerjs": "^2.0.8",
     "luxon": "^3.2.1",
     "pinia": "^2.0.30",
     "vue": "^3.2.45",
+    "vue-filepond": "^7.0.3",
     "vue-router": "^4.1.6",
-    "vue-tabler-icons": "^2.19.1"
+    "vue-tabler-icons": "^2.19.1",
+    "vue3-google-login": "^2.0.14"
   },
   "devDependencies": {
+    "@pinia/testing": "^0.0.15",
     "@types/hammerjs": "^2.0.41",
     "@types/luxon": "^3.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
     "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/test-utils": "^2.2.10",
     "autoprefixer": "^10.4.13",
+    "eslint": "^8.34.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "happy-dom": "^8.6.0",
     "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
     "sass": "^1.58.3",
     "sass-loader": "^13.2.0",
     "tailwindcss": "^3.2.7",
     "typescript": "^4.9.3",
     "vite": "^4.1.0",
+    "vitest": "^0.28.5",
     "vue-tsc": "^1.0.24"
   }
 }

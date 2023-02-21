@@ -23,7 +23,7 @@ defineProps({
 
 <style scoped lang="scss">
 .text {
-  @apply text-zinc-600;
+  @apply text-zinc-600 dark:text-zinc-200;
   &__md {
     @apply text-lg leading-6 md:text-xl md:leading-8;
   }
