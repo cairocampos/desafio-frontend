@@ -1,6 +1,27 @@
-# Rocket Stream
+# 🔥 Rocket Stream
 
-## Projeto desenvolvido para atender ao desafio proposto pela Bycoders 🚀
+### Projeto desenvolvido para atender ao desafio proposto pela Bycoders 🚀
+
+
+## Executando o projeto
+
+```
+npm install
+npm run dev
+```
+
+## Executando testes
+
+```
+npm run test:unit
+```
+
+### Disclaimer
+Para realizar a comunicação com a API do **Google**
+você precisaria gerar sua **chave de api** e **ID do cliente OAuth** em um projeto no 
+console do Google (veja o arquivo de exemplo **.env.development**)
+
+--------------
 
 ### Features
 
