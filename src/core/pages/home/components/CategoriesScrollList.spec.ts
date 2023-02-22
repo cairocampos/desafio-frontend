@@ -3,7 +3,7 @@ import CategoriesScrollList from "./CategoriesScrollList.vue";
 import videoCategoriesJSON from '@/mocks/videoCategories.json';
 import { HttpClient } from "@/core/http/http-client";
 
-const httpClientFake: HttpClient = {
+const httpClientFake: Partial<HttpClient> = {
   async get(_: string) {
     return {
       data: videoCategoriesJSON as any,
@@ -44,7 +44,7 @@ describe('CategoriesScrollList', () => {
     await firstItem.trigger('click');
 
     expect(wrapper.emitted()).toHaveProperty('selected');
-    expect(wrapper.emitted('selected')?.[0]).toEqual([videoCategoriesJSON.items[0]])
+    expect(wrapper.emitted('selected')?.[0]).toEqual([videoCategoriesJSON.items[0].id])
   });
 
   it('should set a class to inform that the element was selected', async () => {

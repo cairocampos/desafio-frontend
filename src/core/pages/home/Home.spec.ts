@@ -3,8 +3,8 @@ import { flushPromises, mount } from "@vue/test-utils"
 import Home from "./Home.vue"
 import searchJSON from '@/mocks/search.json'
 import { createPinia, setActivePinia } from "pinia"
-import { useRoute, useRouter } from "vue-router"
-import { Mock } from "vitest"
+import { createRouter, createWebHistory, useRoute, useRouter } from "vue-router"
+import { Mock, MockedFunction } from "vitest"
 import { useVideoStore } from "@/stores/player"
 
 vi.mock('vue-router', () => ({
@@ -14,7 +14,7 @@ vi.mock('vue-router', () => ({
   }))
 }))
 
-const httpClientFake: HttpClient = {
+const httpClientFake: Partial<HttpClient> = {
   async get(_: string) {
     return {
       data: searchJSON as any,
@@ -28,11 +28,14 @@ describe('Home', () => {
     setActivePinia(createPinia())
 
     push = vi.fn()
-    useRouter.mockImplementationOnce(() => ({
+    const useRouterMocked = useRouter as Mock
+    const useRouteMocked = useRoute as Mock
+
+    useRouterMocked.mockImplementationOnce(() => ({
       push
     }))
 
-    useRoute.mockImplementationOnce(() => ({
+    useRouteMocked.mockImplementationOnce(() => ({
       query: {
         q: "",
         videoCategoryId: ""
@@ -53,8 +56,9 @@ describe('Home', () => {
     expect(httpClientSpy).toHaveBeenCalled()
     expect(httpClientSpy).toHaveBeenCalledWith('/youtube/v3/search', {
       params: {
-        q: "",
-        videoCategoryId: ""
+        type: "video",
+        maxResults: 50,
+        part: "snippet"
       }
     })
   })

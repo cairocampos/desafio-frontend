@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 import { ref, onMounted } from "vue";
-import { googleSdkLoaded } from "vue3-google-login";
+import { googleSdkLoaded, googleLogout as oauthLogout } from "vue3-google-login";
 
 type Token = {
   access_token: string;
@@ -33,7 +33,11 @@ export const useOAuth = defineStore('oauth', () => {
     googleSdkLoaded((google) => {
       google.accounts.oauth2.initTokenClient({
         client_id: import.meta.env.VITE_GOOGLE_CLIENT_ID,
-        scope: 'https://www.googleapis.com/auth/youtube',
+        scope: [
+          'https://www.googleapis.com/auth/youtube',
+          'https://www.googleapis.com/auth/youtube.upload',
+          'https://www.googleapis.com/auth/youtubepartner'
+        ].join(' '),
         callback: (response) => {
           setToken(response)
           isLoggedIn.value = true;
@@ -50,7 +54,7 @@ export const useOAuth = defineStore('oauth', () => {
   const googleLogout = () => {
     localStorage.removeItem('@Rocketstream:token')
     isLoggedIn.value = false;
-    googleLogout();
+    oauthLogout();
   }
 
   const refreshToken = () => {

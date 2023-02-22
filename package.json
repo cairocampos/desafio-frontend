@@ -7,13 +7,15 @@
     "dev": "vite --port 8080",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "test:unit": "vitest"
+    "test:unit": "vitest",
+    "lint": "eslint --fix"
   },
   "dependencies": {
     "@vime/core": "^5.4.0",
     "@vime/vue-next": "^5.4.0",
     "axios": "^1.3.3",
     "filepond": "^4.30.4",
+    "filepond-plugin-file-validate-type": "^1.2.8",
     "gsap": "^3.11.4",
     "hammerjs": "^2.0.8",
     "luxon": "^3.2.1",

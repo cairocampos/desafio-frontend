@@ -15,8 +15,8 @@
 
       <div class="flex items-center justify-end">
         <div class="flex items-center justify-end">
-          <Button variant="text" @click="toggleTheme()">
-            <BulbIcon v-if="theme === 'dark'" />
+          <Button variant="text" @click="themeStore.toggleTheme()">
+            <BulbIcon v-if="themeStore.theme === 'light'" />
             <BulbFilledIcon v-else class="text-yellow-200" />
           </Button>
           <Button
@@ -53,12 +53,12 @@
 <script setup lang="ts">
 import Button from '../UI/Button/Button.vue';
 import SearchBar from './SearchBar.vue';
-import { BulbIcon, BulbFilledIcon, BrandYoutubeIcon, UploadIcon, SearchIcon } from 'vue-tabler-icons';
+import { BulbIcon, BulbFilledIcon, BrandYoutubeIcon, UploadIcon } from 'vue-tabler-icons';
 import {useTheme} from '@/stores/useTheme';
 import { useOAuth } from '@/stores/oauth';
 import Upload from '@/components/Upload/Upload.vue'
 import { ref } from 'vue';
-const { theme, toggleTheme } = useTheme()
+const themeStore = useTheme()
 
 const displayUploadForm = ref(false)
 const oauthStore = useOAuth();

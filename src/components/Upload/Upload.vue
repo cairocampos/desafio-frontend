@@ -12,6 +12,7 @@
           ref="pond"
           label-idle="Selecionar arquivo"
           @updatefiles="onUpdateFiles"
+          accepted-file-types="video/*"
         />
 
         <form class="form" @submit.prevent="handleSubmit()">
@@ -42,6 +43,8 @@ import Text from '../UI/Text/Text.vue';
 import {useYoutubeApi} from '@/core/api/youtube'
 import { useRouter } from 'vue-router';
 import Loading from '../Loading/Loading.vue';
+import FilePondPluginFileValidateType from "filepond-plugin-file-validate-type";
+
 
 defineProps({
   close: {
@@ -56,7 +59,9 @@ const form = ref({
   description: ""
 })
 
-const FilePond = vueFilePond();
+const FilePond = vueFilePond(
+  FilePondPluginFileValidateType
+);
 
 const pond = ref(null);
 
@@ -86,11 +91,12 @@ const handleSubmit = async () => {
 
   try {
     loading.value = true;
-    const response = await youtubeApi.insertVideoInfo(data);
-    const responseUpload = await youtubeApi.uploadMedia(response.headers?.location, formData);
+    const response = await youtubeApi.insertVideoInfo(data, file.value);
+    const responseUpload = await youtubeApi.uploadMedia(response.headers?.location, file.value);
     uploadLinkUrl.value = `https://youtu.be/${responseUpload.data?.id}`
   } catch(error) {
     console.log(error)
+    alert('Ocorreu um erro ao realizar o upload.')
   } finally {
     loading.value = false
   }

@@ -8,11 +8,12 @@ export type Response<T> = {
 }
 
 export type Request = {
-  params?: any
+  params?: any,
+  headers?: any
 }
 
 export interface HttpClient {
   get<T = any>(url: string, request?: Request): Promise<Response<T>>;
-  post<T = any>(url: string, data: any): Promise<Response<T>>;
+  post<T = any>(url: string, data: any, request?: Request): Promise<Response<T>>;
   put<T = any>(url: string, data: any): Promise<Response<T>>;
 }

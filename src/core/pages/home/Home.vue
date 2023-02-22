@@ -46,7 +46,7 @@ const searchVideos = async () => {
     loading.value = true;
       const {data} = await youtubeApi.search({
       q: route.query?.search?.toString() || '',
-      videoCategoryId: videoCategoryId?.value
+      videoCategoryId: videoCategoryId?.value?.toString()
     });
     videos.value = data.items;
   } finally {

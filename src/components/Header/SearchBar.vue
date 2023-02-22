@@ -7,7 +7,7 @@
       @focus="onFocus()"
       @keyup.enter="handleSearchTerm()"
     />
-    <button>
+    <button @click="handleSearchTerm()">
       <SearchIcon/>
     </button>
 
@@ -69,19 +69,21 @@ const handleClick = (event: Event) => {
 
 const router = useRouter();
 const handleSearchTerm = () => {
-  if(!term.value.trim()) return;
+  const termSanitized = term.value.trim()
   const items = getTermsFromStorage();
   const parsedItems: string[] = JSON.parse(items)!
 
   displayHistory.value = false;
   router.replace({
     query: {
-      search: term.value
+      search: termSanitized
     }
   })
 
+  if(!termSanitized) return;
+
   if(!parsedItems || !parsedItems.length) {
-    localStorage.setItem('@Rocketstream:terms', JSON.stringify([term.value]));
+    localStorage.setItem('@Rocketstream:terms', JSON.stringify([termSanitized]));
     return;
   }
 

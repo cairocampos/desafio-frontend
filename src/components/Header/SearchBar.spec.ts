@@ -13,7 +13,8 @@ describe('SearchBar component', () => {
   let replace: Mock
   beforeEach(() => {
     replace = vi.fn()
-    useRouter.mockImplementationOnce(() => ({
+    const useRouterMocked = useRouter as Mock;
+    useRouterMocked.mockImplementationOnce(() => ({
       replace
     }))
 
@@ -26,13 +27,13 @@ describe('SearchBar component', () => {
     expect(wrapper.find('.terms').exists()).toBeFalsy();
   })
 
-  it('should not replace route params if terms is empty', async () => {
+  it('should call replace route params if terms is empty', async () => {
     localStorage.setItem('@Rocketstream:terms', '[]')
     const wrapper = mount(SearchBar)
     const input = wrapper.find('input');
     await input.trigger('keyup.enter');
 
-    expect(replace).not.toHaveBeenCalled();
+    expect(replace).toHaveBeenCalled();
   });
 
   it('should replace query route state with term value', async () => {

@@ -5,4 +5,5 @@ export interface YoutubeSearchParams {
   q?: string | null;
   pageToken?: string;
   videoCategoryId?: string,
+  type?:string;
 }

@@ -34,7 +34,7 @@ const emit = defineEmits(['selected']);
 const categoryIdSelected = ref('')
 
 const onCategorySelected = (category: VideoCategoriesItems) => {
-  emit('selected', category);
+  emit('selected', category.id);
   categoryIdSelected.value = category.id
 }
 
