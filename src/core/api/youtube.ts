@@ -26,6 +26,7 @@ export function useYoutubeApi() {
   const videoCategories = () => {
     return http.get<Youtube.VideoCategories>(`${url}/videoCategories`, {
       params: {
+        regionCode: 'BR',
         part: 'snippet'
       }
     })

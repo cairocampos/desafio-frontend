@@ -24,7 +24,12 @@ describe('CategoriesScrollList', () => {
     });
 
     expect(httpClientSpy).toHaveBeenCalled()
-    expect(httpClientSpy).toHaveBeenCalledWith('/youtube/v3/videoCategories')
+    expect(httpClientSpy).toHaveBeenCalledWith('/youtube/v3/videoCategories', {
+      params: {
+        part: 'snippet',
+        regionCode: 'BR'
+      }
+    })
     await flushPromises()
     expect(wrapper.findAll('.category')).toHaveLength(videoCategoriesJSON.items.length)
     expect(wrapper.find('.category').text()).toEqual(videoCategoriesJSON.items[0].snippet.title)
