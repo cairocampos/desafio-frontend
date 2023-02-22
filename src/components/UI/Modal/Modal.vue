@@ -18,6 +18,7 @@
 </template>
 
 <script setup lang="ts">
+import { onMounted, onUnmounted } from 'vue'
 import Heading from '../Heading/Heading.vue';
 import { XIcon } from 'vue-tabler-icons'
 
@@ -34,6 +35,14 @@ const onClose = () => {
   emit('close')
 }
 
+onMounted(() => {
+  document.body.classList.add('modal-is-open')
+});
+
+onUnmounted(() => {
+  document.body.classList.remove('modal-is-open')
+});
+
 </script>
 
 <style scoped lang="scss">
@@ -44,7 +53,7 @@ const onClose = () => {
 
 .modal {
   @apply min-w-[50vw]  bg-zinc-100 dark:bg-zinc-700 absolute p-6 rounded-md
-  z-50 mt-10;
+  z-50 mt-10 overflow-y-auto max-h-screen;
   left: 50%;
   transform: translateX(-50%);
   &__header {
